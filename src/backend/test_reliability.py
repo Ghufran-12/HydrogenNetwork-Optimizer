@@ -1,14 +1,14 @@
 """
 Reliability Test — Requirement: >= 95% valid prediction responses
 Run: python test_reliability.py
-Expects the FastAPI backend running on localhost:8000
+Expects the FastAPI backend running on https://hydrogennetwork-optimizer-1.onrender.com
 """
 
 import requests
 import random
 import time
 
-BASE_URL   = "http://localhost:8000"
+BASE_URL   = "http://https://hydrogennetwork-optimizer-1.onrender.com"
 ENDPOINT   = f"{BASE_URL}/predict"
 N_REQUESTS = 100          # total requests to send
 THRESHOLD  = 95.0         # minimum required success rate (%)

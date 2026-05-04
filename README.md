@@ -149,7 +149,7 @@ Professional industrial UI styling:
 Example connection:
 
 ```javascript
-const response = await fetch("http://localhost:8000/recommend", {
+const response = await fetch("http://https://hydrogennetwork-optimizer-1.onrender.com/recommend", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(payload),

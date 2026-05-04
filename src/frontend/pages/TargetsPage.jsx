@@ -159,7 +159,7 @@ export default function TargetsPage() {
     setLoading(true);
     setApiError("");
     try {
-      const res  = await authFetch("http://localhost:8000/targets/team");
+      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/targets/team");
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || "Failed to load targets");
       setTargets(data.targets || []);
@@ -185,7 +185,7 @@ export default function TargetsPage() {
 
     setSaving(true);
     try {
-      const res  = await authFetch("http://localhost:8000/targets/create", {
+      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/targets/create", {
         method: "POST",
         body: JSON.stringify({
           metric:     form.metric,
@@ -210,7 +210,7 @@ export default function TargetsPage() {
   async function handleDelete(id) {
     if (!window.confirm("Delete this target?")) return;
     try {
-      const res  = await authFetch(`http://localhost:8000/targets/${id}`, { method: "DELETE" });
+      const res  = await authFetch(`http://https://hydrogennetwork-optimizer-1.onrender.com/targets/${id}`, { method: "DELETE" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || "Failed to delete");
       await loadTargets();

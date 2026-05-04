@@ -298,7 +298,7 @@ export default function ManagerDashboardPage() {
   async function load() {
     setLoading(true);
     try {
-      const res  = await authFetch("http://localhost:8000/manager/dashboard");
+      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/manager/dashboard");
       const json = await res.json();
       if (!res.ok) throw new Error(json.detail || "Failed to load");
       setData(json);
@@ -309,7 +309,7 @@ export default function ManagerDashboardPage() {
   async function handleDelete(targetId) {
     if (!window.confirm("Delete this target?")) return;
     try {
-      const res  = await authFetch(`http://localhost:8000/targets/${targetId}`, { method: "DELETE" });
+      const res  = await authFetch(`http://https://hydrogennetwork-optimizer-1.onrender.com/targets/${targetId}`, { method: "DELETE" });
       const json = await res.json();
       if (!res.ok) throw new Error(json.detail || "Failed to delete");
       await load();

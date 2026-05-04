@@ -75,7 +75,7 @@ export default function ResultsPage() {
   // Fetch sensitivity analysis
   useEffect(() => {
     if (!form) return;
-    fetch("http://localhost:8000/sensitivity", {
+    fetch("http://https://hydrogennetwork-optimizer-1.onrender.com/sensitivity", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -95,7 +95,7 @@ export default function ResultsPage() {
   useEffect(() => {
     if (!form) return;
     const token = localStorage.getItem("smr_token") ?? "";
-    fetch("http://localhost:8000/confidence", {
+    fetch("http://https://hydrogennetwork-optimizer-1.onrender.com/confidence", {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
       body: JSON.stringify({
@@ -261,7 +261,7 @@ export default function ResultsPage() {
     if (!emailTo.trim()) return;
     setEmailStatus("sending"); setEmailError("");
     try {
-      const res = await fetch("http://localhost:8000/send-report", {
+      const res = await fetch("http://https://hydrogennetwork-optimizer-1.onrender.com/send-report", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ to_email: emailTo.trim(), scenario_name: location.state?.scenarioName || "SMR Scenario", current, optimized, optimized_params, recommendations, cost_improvement_pct, h2_improvement_pct, personal_message: emailMessage }),

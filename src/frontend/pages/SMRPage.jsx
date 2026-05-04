@@ -188,7 +188,7 @@ export default function SMRPage() {
         ch4_feed: form.ch4, steam_flowrate: form.steam,
         smr_temp: form.smrTemp, smr_pressure_kpa: form.smrPressure, hts_temp: form.htsTemp,
       };
-      const response = await fetch("http://localhost:8000/recommend", {
+      const response = await fetch("http://https://hydrogennetwork-optimizer-1.onrender.com/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -199,7 +199,7 @@ export default function SMRPage() {
       let targetImpacts = [];
       try {
         const histRes = await authFetch(
-          replaceId ? `http://localhost:8000/history/${replaceId}` : "http://localhost:8000/history",
+          replaceId ? `http://https://hydrogennetwork-optimizer-1.onrender.com/history/${replaceId}` : "http://https://hydrogennetwork-optimizer-1.onrender.com/history",
           {
             method: replaceId ? "PUT" : "POST",
             body: JSON.stringify({
