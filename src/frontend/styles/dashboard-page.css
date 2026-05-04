@@ -1,0 +1,281 @@
+/* ─────────────────────────────────────────────
+   BASE
+───────────────────────────────────────────── */
+.dash-page {
+  min-height: 100vh;
+  padding: 24px 20px 56px;
+  background:
+    radial-gradient(ellipse 900px 500px at 10% 0%, rgba(20,83,45,0.12), transparent 55%),
+    radial-gradient(ellipse 700px 400px at 90% 100%, rgba(16,185,129,0.08), transparent 55%),
+    linear-gradient(180deg, #EDFAF2 0%, #F3F4F6 100%);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  color: #111827;
+}
+
+.dash-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ─────────────────────────────────────────────
+   HEADER
+───────────────────────────────────────────── */
+.dash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(20,83,45,0.12);
+  border-radius: 18px;
+
+  padding: 18px 24px;
+  box-shadow: 0 2px 12px rgba(17,24,39,0.07);
+}
+
+.dash-title {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.4px;
+  color: #111827;
+}
+
+.dash-line {
+  height: 3px;
+  width: 56px;
+  border-radius: 999px;
+  margin-top: 6px;
+  background: linear-gradient(90deg, #14532D, rgba(20,83,45,0.2));
+}
+
+/* ─────────────────────────────────────────────
+   KPI
+───────────────────────────────────────────── */
+.dash-kpi-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.dash-kpi-card {
+  background: #fff;
+  border: 1px solid #E9EDF0;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.dash-kpi-accent {
+  background: linear-gradient(135deg, #F0FDF4, #ECFDF5);
+  border-color: #BBF7D0;
+}
+
+.dash-kpi-label {
+  font-size: 11px;
+  font-weight: 800;
+  color: #9CA3AF;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.dash-kpi-value {
+  font-size: 26px;
+  font-weight: 900;
+  color: #111827;
+  margin-top: 6px;
+}
+
+.dash-kpi-sub {
+  font-size: 11px;
+  color: #9CA3AF;
+  margin-top: 4px;
+}
+
+/* ─────────────────────────────────────────────
+   CHARTS
+───────────────────────────────────────────── */
+.dash-charts-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.dash-chart-card {
+  background: #fff;
+  border: 1px solid #E9EDF0;
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.dash-chart-title {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.dash-chart-sub {
+  font-size: 11px;
+  color: #9CA3AF;
+  margin-bottom: 10px;
+}
+
+/* ─────────────────────────────────────────────
+   SECTION TITLE
+───────────────────────────────────────────── */
+.dash-section-title {
+  font-size: 12px;
+  font-weight: 800;
+  color: #6B7280;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 14px 0;
+}
+
+/* ─────────────────────────────────────────────
+   TOP SCENARIOS 
+───────────────────────────────────────────── */
+.dash-top-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dash-top-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  background: #FAFAFA;
+  border: 1px solid #E9EDF0;
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+/* left block */
+.dash-top-info {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-top-name {
+  font-size: 14px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.dash-top-time {
+  font-size: 11px;
+  color: #9CA3AF;
+  margin-top: 2px;
+}
+
+.dash-top-metrics {
+  display: flex;
+  gap: 18px;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* each metric column */
+.dash-top-metric {
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+  gap: 2px;
+}
+
+.dash-metric-label {
+  font-size: 10px;
+  font-weight: 800;
+  color: #9CA3AF;
+  text-transform: uppercase;
+}
+
+.dash-metric-val {
+  font-size: 13px;
+  font-weight: 800;
+  color: #111827;
+
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+/* unit style */
+.dash-metric-val em {
+  font-style: normal;
+  font-size: 11px;
+  color: #9CA3AF;
+  font-weight: 500;
+}
+
+/* green highlight */
+.dash-metric-val.green {
+  color: #14532D;
+}
+
+/* ─────────────────────────────────────────────
+   RANK BADGE
+───────────────────────────────────────────── */
+.dash-rank {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.dash-rank-gold { background: #FEF9C3; }
+.dash-rank-silver { background: #F3F4F6; }
+.dash-rank-n { background: #E5E7EB; }
+
+/* ─────────────────────────────────────────────
+   BUTTON
+───────────────────────────────────────────── */
+.dash-rerun-btn {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.15s;
+  white-space: nowrap;
+}
+
+.dash-rerun-btn:hover {
+  background: #F0FDF4;
+  border-color: #BBF7D0;
+  color: #14532D;
+}
+
+/* ─────────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .dash-kpi-row { grid-template-columns: repeat(2, 1fr); }
+  .dash-charts-row { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .dash-kpi-row { grid-template-columns: 1fr; }
+
+  .dash-top-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dash-top-metrics {
+    width: 100%;
+  }
+}

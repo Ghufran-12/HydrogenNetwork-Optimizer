@@ -1,0 +1,638 @@
+{
+  "Narjes@gmail.com": [
+    {
+      "id": "eb135378-bdde-4ba8-9439-5f5ffadc6f5e",
+      "timestamp": "2026-04-26T16:19:52.932140",
+      "name": "Scenario 4:19:52 \u0645",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3000,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2850.55740300698,
+        "smr_conversion": 1.0016520846404968,
+        "steam_consumption": 4304.289334818425,
+        "co2_fraction": 0.1656888049816933,
+        "syngas_flow": 5760.041275507588,
+        "ch4_slip": 0.031141784365981168,
+        "h2_to_psa": 1444.2201651939258,
+        "h2_cost": 136975709.58240876,
+        "co2_flow_kmolh": 954.37,
+        "co2_mass_kgh": 41992.5,
+        "co2_annual_tonnes": 367854
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "0e059b3e-85c4-4d44-985f-b8f59f7d884a",
+      "timestamp": "2026-04-26T17:12:25.001786",
+      "name": "Scenario 5:12:24 \u0645",
+      "inputs": {
+        "ch4_feed": 800,
+        "steam_flowrate": 3500,
+        "smr_temp": 880,
+        "smr_pressure_kpa": 2300,
+        "hts_temp": 335
+      },
+      "results": {
+        "h2_production": 2863.083258909937,
+        "smr_conversion": 0.9988717885638319,
+        "steam_consumption": 4277.840516314463,
+        "co2_fraction": 0.1772009789624786,
+        "syngas_flow": 6122.725087838641,
+        "ch4_slip": 0.02003000728831499,
+        "h2_to_psa": 1410.1696191596147,
+        "h2_cost": 154825642.71930143,
+        "co2_flow_kmolh": 1084.95,
+        "co2_mass_kgh": 47737.9,
+        "co2_annual_tonnes": 418184
+      },
+      "optimized_results": {
+        "h2_production": 2846.0299203384493,
+        "smr_conversion": 0.9983570954653916,
+        "steam_consumption": 4283.68655997971,
+        "co2_fraction": 0.15758214419679784,
+        "syngas_flow": 5202.956747795002,
+        "ch4_slip": 0.04410887275302098,
+        "h2_to_psa": 1420.0698346498423,
+        "h2_cost": 105435680.193036,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.3,
+        "co2_annual_tonnes": 316020
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2300,
+        "hts_temp": 320
+      },
+      "recommendations": [
+        "Increase CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "4c04fb22-c804-4c2a-92b3-65305497cb96",
+      "timestamp": "2026-04-29T14:19:35.885386",
+      "name": "Scenario 2:19:35 \u0645",
+      "inputs": {
+        "ch4_feed": 700,
+        "steam_flowrate": 3000,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2724.955499089919,
+        "smr_conversion": 1.0018918428730137,
+        "steam_consumption": 4082.420131049897,
+        "co2_fraction": 0.16877339259557494,
+        "syngas_flow": 5600.036200107282,
+        "ch4_slip": 0.02885878971349249,
+        "h2_to_psa": 1347.6928470220564,
+        "h2_cost": 138187843.44712472,
+        "co2_flow_kmolh": 945.14,
+        "co2_mass_kgh": 41586,
+        "co2_annual_tonnes": 364294
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "recommendations": [
+        "Increase CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "a227a81a-fbde-4df8-86ef-bcd4efb4c787",
+      "timestamp": "2026-04-27T22:19:01.719440",
+      "name": "Scenario 10:19:01 \u0645",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3000,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2850.55740300698,
+        "smr_conversion": 1.0016520846404968,
+        "steam_consumption": 4304.289334818425,
+        "co2_fraction": 0.1656888049816933,
+        "syngas_flow": 5760.041275507588,
+        "ch4_slip": 0.031141784365981168,
+        "h2_to_psa": 1444.2201651939258,
+        "h2_cost": 136975709.58240876,
+        "co2_flow_kmolh": 954.37,
+        "co2_mass_kgh": 41992.5,
+        "co2_annual_tonnes": 367854
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "08451b2f-f517-44bb-a1fe-7d4d0004b451",
+      "timestamp": "2026-04-27T22:37:29.504957",
+      "name": "Scenario 10:37:29 \u0645",
+      "inputs": {
+        "ch4_feed": 650,
+        "steam_flowrate": 3800,
+        "smr_temp": 870,
+        "smr_pressure_kpa": 2800,
+        "hts_temp": 335
+      },
+      "results": {
+        "h2_production": 2564.872201504309,
+        "smr_conversion": 1.0016003069216703,
+        "steam_consumption": 3778.306781742485,
+        "co2_fraction": 0.18532279566782234,
+        "syngas_flow": 6104.2242864188875,
+        "ch4_slip": 0.012656307390503576,
+        "h2_to_psa": 1209.0554678877004,
+        "h2_cost": 174167860.06648722,
+        "co2_flow_kmolh": 1131.25,
+        "co2_mass_kgh": 49775.1,
+        "co2_annual_tonnes": 436030
+      },
+      "optimized_results": {
+        "h2_production": 2844.3969215001416,
+        "smr_conversion": 0.9983145958086541,
+        "steam_consumption": 4278.936302894834,
+        "co2_fraction": 0.1576847244176441,
+        "syngas_flow": 5198.346456265448,
+        "ch4_slip": 0.04405910989740674,
+        "h2_to_psa": 1417.555901958992,
+        "h2_cost": 105455376.24986215,
+        "co2_flow_kmolh": 819.7,
+        "co2_mass_kgh": 36066.8,
+        "co2_annual_tonnes": 315945
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2800,
+        "hts_temp": 320
+      },
+      "recommendations": [
+        "Increase CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "45257d47-9888-4a57-945b-217755127709",
+      "timestamp": "2026-04-27T22:37:54.937913",
+      "name": "Scenario 10:37:54 \u0645",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3000,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 365
+      },
+      "results": {
+        "h2_production": 2848.822021634146,
+        "smr_conversion": 1.001347724089982,
+        "steam_consumption": 4296.0226335743,
+        "co2_fraction": 0.16332166252852126,
+        "syngas_flow": 5764.6082037751,
+        "ch4_slip": 0.03356537913764524,
+        "h2_to_psa": 1444.4203967857538,
+        "h2_cost": 140075392.87181437,
+        "co2_flow_kmolh": 941.49,
+        "co2_mass_kgh": 41425.4,
+        "co2_annual_tonnes": 362886
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "f7071a24-bfbf-43dd-90da-25030134bb1e",
+      "timestamp": "2026-04-29T14:17:18.665595",
+      "name": "Scenario 2:17:18 \u0645",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3900,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2100,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2817.7836057589716,
+        "smr_conversion": 1.0027111334056094,
+        "steam_consumption": 4194.279811389117,
+        "co2_fraction": 0.17971365254116103,
+        "syngas_flow": 6495.659000922515,
+        "ch4_slip": 0.016017696594553984,
+        "h2_to_psa": 1385.103830755851,
+        "h2_cost": 180967036.64847678,
+        "co2_flow_kmolh": 1167.36,
+        "co2_mass_kgh": 51363.8,
+        "co2_annual_tonnes": 449947
+      },
+      "optimized_results": {
+        "h2_production": 2849.230961382042,
+        "smr_conversion": 0.9986709688853381,
+        "steam_consumption": 4288.834248626913,
+        "co2_fraction": 0.1574910084726077,
+        "syngas_flow": 5206.889567005867,
+        "ch4_slip": 0.044156210259652634,
+        "h2_to_psa": 1422.7675157338745,
+        "h2_cost": 105479802.30399708,
+        "co2_flow_kmolh": 820.04,
+        "co2_mass_kgh": 36081.7,
+        "co2_annual_tonnes": 316076
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2100,
+        "hts_temp": 320
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "9acdeebc-b85a-4bc5-817b-4c9c5bbeec53",
+      "timestamp": "2026-04-29T14:20:40.470654",
+      "name": "high steam",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3000,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2850.55740300698,
+        "smr_conversion": 1.0016520846404968,
+        "steam_consumption": 4304.289334818425,
+        "co2_fraction": 0.1656888049816933,
+        "syngas_flow": 5760.041275507588,
+        "ch4_slip": 0.031141784365981168,
+        "h2_to_psa": 1444.2201651939258,
+        "h2_cost": 136975709.58240876,
+        "co2_flow_kmolh": 954.37,
+        "co2_mass_kgh": 41992.5,
+        "co2_annual_tonnes": 367854
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "36971537-e82e-4346-913e-eff4aba4e0df",
+      "timestamp": "2026-04-29T17:10:20.230769",
+      "name": "Scenario 5:10:20 \u0645",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3000,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2850.55740300698,
+        "smr_conversion": 1.0016520846404968,
+        "steam_consumption": 4304.289334818425,
+        "co2_fraction": 0.1656888049816933,
+        "syngas_flow": 5760.041275507588,
+        "ch4_slip": 0.031141784365981168,
+        "h2_to_psa": 1444.2201651939258,
+        "h2_cost": 136975709.58240876,
+        "co2_flow_kmolh": 954.37,
+        "co2_mass_kgh": 41992.5,
+        "co2_annual_tonnes": 367854
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "b45e9174-8649-46e0-a6be-6b2ef62a3bab",
+      "timestamp": "2026-04-29T17:11:14.457389",
+      "name": "test",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3000,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2200,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2849.9797659493215,
+        "smr_conversion": 1.0016392302398962,
+        "steam_consumption": 4302.699160694734,
+        "co2_fraction": 0.1657210389769962,
+        "syngas_flow": 5758.631754552872,
+        "ch4_slip": 0.03113872678102643,
+        "h2_to_psa": 1443.1047392893627,
+        "h2_cost": 136955857.47295848,
+        "co2_flow_kmolh": 954.33,
+        "co2_mass_kgh": 41990.4,
+        "co2_annual_tonnes": 367836
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2200,
+        "hts_temp": 320
+      },
+      "optimized_results": {
+        "h2_production": 2846.341460961474,
+        "smr_conversion": 0.9984083929518406,
+        "steam_consumption": 4283.510491055027,
+        "co2_fraction": 0.15757842571569575,
+        "syngas_flow": 5202.905632373657,
+        "ch4_slip": 0.04411071300073868,
+        "h2_to_psa": 1419.974109837881,
+        "h2_cost": 105447476.03704955,
+        "co2_flow_kmolh": 819.87,
+        "co2_mass_kgh": 36074.1,
+        "co2_annual_tonnes": 316009
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "75e06da9-0a5a-4f43-b6ca-d875fe3c1d2c",
+      "timestamp": "2026-04-29T17:13:25.471947",
+      "name": "try",
+      "inputs": {
+        "ch4_feed": 750,
+        "steam_flowrate": 3000,
+        "smr_temp": 900,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2790.750509905446,
+        "smr_conversion": 1.0016323555432063,
+        "steam_consumption": 4190.095975227393,
+        "co2_fraction": 0.16740151013498264,
+        "syngas_flow": 5675.052326236817,
+        "ch4_slip": 0.03007741594772284,
+        "h2_to_psa": 1390.2008340781688,
+        "h2_cost": 137505126.0652214,
+        "co2_flow_kmolh": 950.01,
+        "co2_mass_kgh": 41800.5,
+        "co2_annual_tonnes": 366173
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "recommendations": [
+        "Increase CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    },
+    {
+      "id": "46a586b6-2b15-445e-876a-979b7ec81d08",
+      "timestamp": "2026-04-29T17:15:32.614974",
+      "name": "test",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 2600,
+        "smr_temp": 850,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 350
+      },
+      "results": {
+        "h2_production": 2798.1333200375334,
+        "smr_conversion": 1.0000797545651678,
+        "steam_consumption": 4203.774256072113,
+        "co2_fraction": 0.15556988541214697,
+        "syngas_flow": 5274.523790039657,
+        "ch4_slip": 0.045226354182153046,
+        "h2_to_psa": 1399.6194898939045,
+        "h2_cost": 116546270.31563675,
+        "co2_flow_kmolh": 820.56,
+        "co2_mass_kgh": 36104.5,
+        "co2_annual_tonnes": 316276
+      },
+      "optimized_params": {
+        "ch4_feed": 925,
+        "steam_flowrate": 2500,
+        "smr_temp": 750,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 320
+      },
+      "optimized_results": {
+        "h2_production": 2844.662581551412,
+        "smr_conversion": 0.9982684977551896,
+        "steam_consumption": 4279.913155886252,
+        "co2_fraction": 0.15766663209514994,
+        "syngas_flow": 5200.154758636437,
+        "ch4_slip": 0.044077105707229454,
+        "h2_to_psa": 1418.3595879570169,
+        "h2_cost": 105442988.0185897,
+        "co2_flow_kmolh": 819.89,
+        "co2_mass_kgh": 36075.2,
+        "co2_annual_tonnes": 316019
+      },
+      "recommendations": [
+        "Decrease CH\u2084 Feed to 925.0 kgmol/h",
+        "Decrease Steam Flowrate to 2500.0 kgmol/h",
+        "Decrease SMR Temperature to 750.0 \u00b0C",
+        "Decrease HTS Inlet Temperature to 320.0 \u00b0C"
+      ]
+    }
+  ],
+  "kpi-tester@test.com": [
+    {
+      "id": "d86af170-a72b-4ff4-b311-a2e7d9cc2755",
+      "timestamp": "2026-05-04T18:46:34.001902",
+      "name": "kpi-test-b112f47f",
+      "inputs": {
+        "ch4_feed": 1000,
+        "steam_flowrate": 3000,
+        "smr_temp": 800,
+        "smr_pressure_kpa": 2500,
+        "hts_temp": 340
+      },
+      "results": {
+        "h2_production": 509591,
+        "h2_cost": 123456.0,
+        "co2_annual_tonnes": 999
+      },
+      "optimized_params": {},
+      "optimized_results": {},
+      "recommendations": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Narjes@gmail.com": {
+    "username": "Narjes",
+    "password": "8e757d845dd6ba660e9ab19f2bc09dcb:7e82731e7700743c5b2370a2e7d49623f9875bef9d3de71124792b56c94eed30",
+    "role": "manager",
+    "team_id": "team_65d69f59"
+  },
+  "Sarah@gmail.com": {
+    "username": "Sarah",
+    "password": "8aafb0c16f40355f3d78d44749112acf:2ec977c2ac08643a0f3cec61ad7636e45198cb145dbabfec9f9761ce5ed6740f",
+    "role": "engineer",
+    "team_id": "team_65d69f59"
+  },
+  "Narjes1@gmail.com": {
+    "username": "Narjes",
+    "password": "8e99f0c49cd77795028cde0e08f9eb39:e6abc96ccdb522a66bcfd8b415bcbe401933dee494aabcd33e154474baf6bdeb",
+    "role": "engineer",
+    "team_id": null
+  },
+  "Ali@gmail.com": {
+    "username": "Ali",
+    "password": "f51460d54ed541018a8e9939d1ee293c:700c99da528f3e9696d5f315beeffd29ce190061222a29d9291b58861c2d8049",
+    "role": "manager",
+    "team_id": "team_65d69f59"
+  },
+  "kpi-tester@test.com": {
+    "username": "kpi-tester",
+    "password": "d14af0453d56876204a89883029dc2e7:a54b0472187ef35c8c6f3f9f5edd7d8deda85d41c575478bca83664f911c386e",
+    "role": "engineer",
+    "team_id": null
+  }
+}

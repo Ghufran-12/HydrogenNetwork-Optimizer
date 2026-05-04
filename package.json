@@ -1,0 +1,39 @@
+{
+  "name": "hydrogen-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A React project for hydrogen network analysis.",
+  "main": "src/App.jsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "core-js-pure": "^3.48.0",
+    "docx": "^9.6.1",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.14.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.30.3",
+    "react-scripts": "^5.0.0",
+    "recharts": "^3.8.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

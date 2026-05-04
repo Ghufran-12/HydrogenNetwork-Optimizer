@@ -1,0 +1,27 @@
+{
+  "team_65d69f59": {
+    "team_id": "team_65d69f59",
+    "inputs": {
+      "ch4_feed": 1000.0,
+      "steam_flowrate": 3000.0,
+      "smr_temp": 850.0,
+      "smr_pressure_kpa": 2500.0,
+      "hts_temp": 350.0
+    },
+    "metrics": {
+      "h2_production": 2850.55740300698,
+      "smr_conversion": 1.0016520846404968,
+      "steam_consumption": 4304.289334818425,
+      "co2_fraction": 0.1656888049816933,
+      "syngas_flow": 5760.041275507588,
+      "ch4_slip": 0.031141784365981168,
+      "h2_to_psa": 1444.2201651939258,
+      "h2_cost": 136975709.58240876,
+      "co2_flow_kmolh": 954.37,
+      "co2_mass_kgh": 41992.5,
+      "co2_annual_tonnes": 367854.0
+    },
+    "updated_at": "2026-04-29T11:04:31.302437",
+    "updated_by": "Narjes@gmail.com"
+  }
+}

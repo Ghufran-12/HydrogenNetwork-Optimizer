@@ -1,0 +1,13 @@
+{
+  "tgt_f35e876f4f": {
+    "id": "tgt_f35e876f4f",
+    "team_id": "team_65d69f59",
+    "metric": "h2_cost",
+    "label": "Cost reduction",
+    "goal_value": 100.0,
+    "direction": "min",
+    "deadline": "",
+    "created_at": "2026-04-28T21:52:23.750393",
+    "created_by": "Narjes@gmail.com"
+  }
+}

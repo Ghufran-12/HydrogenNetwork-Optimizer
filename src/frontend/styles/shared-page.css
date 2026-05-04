@@ -1,0 +1,125 @@
+/* ─── Shared page wrapper — same background as home & manager dashboard ─ */
+/* ─── Main content card (white box below header) ──────────────────────── */
+.shared-page-card {
+  background: #fff;
+  border-radius: 24px;
+  border: 1px solid rgba(20,83,45,0.09);
+  box-shadow: 0 6px 40px rgba(17,24,39,0.09);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.shared-page {
+  min-height: 100vh;
+  padding: 24px 20px 48px;
+  background:
+    radial-gradient(ellipse 900px 500px at 10% 0%,  rgba(20,83,45,0.12), transparent 55%),
+    radial-gradient(ellipse 700px 400px at 90% 100%, rgba(16,185,129,0.08), transparent 55%),
+    linear-gradient(180deg, #EDFAF2 0%, #F3F4F6 100%);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  color: #111827;
+}
+
+.shared-shell {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ─── Page heading row: back button + title + actions ──────────────── */
+.page-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 4px 0 2px;
+}
+
+.page-heading-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.page-back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #6B7280;
+  background: rgba(255,255,255,0.85);
+  border: 1.5px solid #E5E7EB;
+  border-radius: 10px;
+  padding: 7px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.page-back-btn:hover {
+  background: #fff;
+  border-color: rgba(20,83,45,0.3);
+  color: #14532D;
+}
+
+.page-heading-title {
+  font-size: 22px;
+  font-weight: 900;
+  color: #111827;
+  letter-spacing: -0.4px;
+  line-height: 1.1;
+}
+
+.page-heading-sub {
+  font-size: 13px;
+  color: #9CA3AF;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.page-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+/* ─── Shared action buttons (for page headings) ────────────────────── */
+.page-btn {
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.12s;
+  white-space: nowrap;
+}
+.page-btn:hover { transform: translateY(-1px); }
+
+.page-btn-solid {
+  background: linear-gradient(135deg, #14532D, #16A34A);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(20,83,45,0.25);
+}
+.page-btn-solid:hover { opacity: 0.9; }
+
+.page-btn-outline {
+  background: rgba(255,255,255,0.85);
+  color: #374151;
+  border-color: #E5E7EB;
+}
+.page-btn-outline:hover {
+  background: #fff;
+  border-color: rgba(20,83,45,0.3);
+  color: #14532D;
+}
