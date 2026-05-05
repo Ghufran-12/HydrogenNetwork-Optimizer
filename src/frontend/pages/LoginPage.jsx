@@ -65,7 +65,7 @@ export default function LoginPage() {
           ? { email: trimmedEmail, password }
           : { username: trimmedUsername, email: trimmedEmail, password };
 
-      const res = await fetch(`http://https://hydrogennetwork-optimizer-1.onrender.com${endpoint}`, {
+      const res = await fetch(`https://hydrogennetwork-optimizer-1.onrender.com${endpoint}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
