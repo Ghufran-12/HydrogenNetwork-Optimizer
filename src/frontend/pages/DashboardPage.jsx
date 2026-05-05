@@ -35,7 +35,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/history")
+    authFetch("https://hydrogennetwork-optimizer-1.onrender.com/history")
       .then(r => r.json())
       .then(d => { setHistory(d.history || []); setLoading(false); })
       .catch(() => setLoading(false));

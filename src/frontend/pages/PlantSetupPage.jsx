@@ -90,7 +90,7 @@ export default function PlantSetupPage() {
 
   async function loadExisting() {
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/plant/baseline");
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/plant/baseline");
       const data = await res.json();
       if (data.baseline) {
         setExisting(data.baseline);
@@ -111,7 +111,7 @@ export default function PlantSetupPage() {
     setPreviewing(true);
     setError("");
     try {
-      const res  = await fetch("http://https://hydrogennetwork-optimizer-1.onrender.com/predict", {
+      const res  = await fetch("https://hydrogennetwork-optimizer-1.onrender.com/predict", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
         body:    JSON.stringify({
@@ -145,7 +145,7 @@ export default function PlantSetupPage() {
     setSaving(true);
     setError("");
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/plant/setup", {
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/plant/setup", {
         method: "POST",
         body:   JSON.stringify({
           ch4_feed:         form.ch4_feed,

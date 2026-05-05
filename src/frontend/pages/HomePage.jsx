@@ -79,14 +79,14 @@ export default function HomePage() {
   const isManager = user?.role === "manager";
 
   useEffect(() => {
-    authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/history")
+    authFetch("https://hydrogennetwork-optimizer-1.onrender.com/history")
       .then(r => r.json())
       .then(d => { setHistory(d.history || []); setLoading(false); })
       .catch(() => setLoading(false));
   }, [authFetch]);
 
   useEffect(() => {
-    authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/targets/team")
+    authFetch("https://hydrogennetwork-optimizer-1.onrender.com/targets/team")
       .then(r => r.json())
       .then(d => setTargets(d.targets || []))
       .catch(() => {});
@@ -96,8 +96,8 @@ export default function HomePage() {
     if (!isManager) return;
     setMgrLoading(true);
     Promise.all([
-      authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/manager/dashboard").then(r => r.json()),
-      authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/plant/baseline").then(r => r.json()),
+      authFetch("https://hydrogennetwork-optimizer-1.onrender.com/manager/dashboard").then(r => r.json()),
+      authFetch("https://hydrogennetwork-optimizer-1.onrender.com/plant/baseline").then(r => r.json()),
     ])
       .then(([mgr, bl]) => { setMgrData(mgr); setBaseline(bl.baseline || null); })
       .catch(() => {})

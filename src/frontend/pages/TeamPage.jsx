@@ -28,7 +28,7 @@ export default function TeamPage() {
   async function loadTeam() {
     setLoading(true);
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/teams/my-team");
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/teams/my-team");
       const data = await res.json();
       setTeam(data.team);
     } catch {
@@ -43,7 +43,7 @@ export default function TeamPage() {
     if (!teamName.trim()) return;
     setCreating(true); setError(""); setSuccess("");
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/teams/create", {
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/teams/create", {
         method: "POST",
         body:   JSON.stringify({ name: teamName.trim() }),
       });
@@ -61,7 +61,7 @@ export default function TeamPage() {
     if (!addEmail.trim()) return;
     setAdding(true); setError(""); setSuccess("");
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/teams/add-member", {
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/teams/add-member", {
         method: "POST",
         body:   JSON.stringify({ email: addEmail.trim() }),
       });
@@ -77,7 +77,7 @@ export default function TeamPage() {
   async function handleRemoveMember(memberEmail) {
     setRemoving(memberEmail); setError(""); setSuccess("");
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/teams/remove-member", {
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/teams/remove-member", {
         method: "POST",
         body:   JSON.stringify({ email: memberEmail }),
       });
@@ -93,7 +93,7 @@ export default function TeamPage() {
     if (!window.confirm(`Promote ${memberEmail} to Manager? They will gain full manager permissions.`)) return;
     setPromoting(memberEmail); setError(""); setSuccess("");
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/teams/promote-manager", {
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/teams/promote-manager", {
         method: "POST",
         body:   JSON.stringify({ email: memberEmail }),
       });
@@ -109,7 +109,7 @@ export default function TeamPage() {
     if (!window.confirm("Claim the Manager role? This only works if no manager exists yet in the system.")) return;
     setClaimingMgr(true); setError(""); setSuccess("");
     try {
-      const res  = await authFetch("http://https://hydrogennetwork-optimizer-1.onrender.com/auth/claim-manager", { method: "POST" });
+      const res  = await authFetch("https://hydrogennetwork-optimizer-1.onrender.com/auth/claim-manager", { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || "Could not claim manager role");
       setSuccess("You are now a Manager. Please sign out and sign back in to refresh your role.");

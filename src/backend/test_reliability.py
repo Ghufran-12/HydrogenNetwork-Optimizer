@@ -8,7 +8,7 @@ import requests
 import random
 import time
 
-BASE_URL   = "http://https://hydrogennetwork-optimizer-1.onrender.com"
+BASE_URL   = "https://hydrogennetwork-optimizer-1.onrender.com"
 ENDPOINT   = f"{BASE_URL}/predict"
 N_REQUESTS = 100          # total requests to send
 THRESHOLD  = 95.0         # minimum required success rate (%)

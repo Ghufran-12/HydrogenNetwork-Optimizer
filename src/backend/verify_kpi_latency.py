@@ -94,7 +94,7 @@ def find_entry_with_value(rows, scenario_name, key, value):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--base", default="http://https://hydrogennetwork-optimizer-1.onrender.com")
+    p.add_argument("--base", default="https://hydrogennetwork-optimizer-1.onrender.com")
     p.add_argument("--timeout", type=float, default=10.0)
     p.add_argument("--username", default="kpi-tester")
     p.add_argument("--password", default="testpass123")

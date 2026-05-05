@@ -23,7 +23,7 @@ export function AuthProvider({ children }) {
   const logout = useCallback(async () => {
     const token = localStorage.getItem("token");
     if (token) {
-      await fetch("http://https://hydrogennetwork-optimizer-1.onrender.com/logout", {
+      await fetch("https://hydrogennetwork-optimizer-1.onrender.com/logout", {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
       }).catch(() => {});
